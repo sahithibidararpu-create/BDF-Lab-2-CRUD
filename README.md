@@ -18,7 +18,7 @@
 | Link | URL |
 |---|---|
 | GitHub Repository | https://github.com/sahithibidararpu-create/BDF-Lab-2-CRUD |
-| Deployed Application (Render) | PASTE-RENDER-URL-HERE |
+| Deployed Application (Render) | https://bdf-lab-2-crud.onrender.com/books |
 
 ## Introduction
 
