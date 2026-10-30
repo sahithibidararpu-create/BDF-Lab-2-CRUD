@@ -1,8 +1,38 @@
 # Lab 2: SQLite database and CRUD routes
 
-**Name:** Sahithi Bidararpu · **Registration Number:** 252U1R1034 · **Section:** CSE Core 2A
+# BDF Lab 02: SQLite Database and CRUD Routes
 
-**Live link:** _paste your deployed URL here (or write why it could not be deployed)_
+## Student Details
+
+| Field | Details |
+|---|---|
+| Name | Bidarapu Sahithi |
+| Registration Number | 252U1R1034 |
+| Class and Section | CSE Core 1A |
+| Programme | UG, Year I, Term I |
+| Institution | Aurora Higher Education and Research Academy |
+| Subject | BDF |
+
+## Project Links
+
+| Link | URL |
+|---|---|
+| GitHub Repository | https://github.com/sahithibidararpu-create/BDF-Lab-2-CRUD |
+| Deployed Application (Render) | PASTE-RENDER-URL-HERE |
+
+## Introduction
+
+This lab builds a REST API for managing a collection of books. The server is written in Node.js with the Express framework and stores its data in a SQLite database file (`database.db`). The table structure is defined in `schema.sql`. The API supports the four basic database operations, Create, Read, Update and Delete (CRUD), through HTTP routes, and returns a 404 response when a requested book does not exist.
+
+## Objectives
+
+1. To create a SQLite database and define a table using SQL (`schema.sql`).
+2. To connect a Node.js and Express server to the SQLite database.
+3. To implement CRUD routes: GET all books, GET one book by id, POST a new book, PUT to update a book, and DELETE a book.
+4. To handle errors correctly, for example returning 404 when a book is not found.
+5. To test every route using Postman and the browser, and record the results as screenshots.
+6. To publish the project on GitHub and deploy it on Render.
+
 
 ## How to run
 
@@ -68,3 +98,7 @@ Request body for POST and PUT:
 -The first Render deploy crashed with "Exited with status 1". I fixed it by setting the Node version.
 A wrong URL in Postman gave a 404. I corrected the URL.
 I switched from a students table to the book table the lab asked for.
+
+## Conclusion
+
+In this lab, a SQLite database was created and connected to an Express server, and all five CRUD routes were implemented and tested. The screenshots in the `screenshots` folder show the database before and after the changes, along with each route working. The lab showed how a backend server reads and changes persistent data through HTTP requests, and how to handle missing records with proper status codes. The finished project was then pushed to GitHub and deployed on Render.
