@@ -8,8 +8,8 @@
 |---|---|
 | Name | Bidarapu Sahithi |
 | Registration Number | 252U1R1034 |
-| Class and Section | CSE Core 1A |
-| Programme | UG, Year I, Term I |
+| Class and Section | CSE Core 2A |
+| Programme | UG, Year II, Term I |
 | Institution | Aurora Higher Education and Research Academy |
 | Subject | BDF |
 
